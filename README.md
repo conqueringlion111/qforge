@@ -99,7 +99,6 @@ cd qforge
 ```
 ANTHROPIC_API_KEY=your_api_key_here
 ```
-> ⚠️ Never commit this file. It is already listed in `.gitignore`.
 
 **3. Install dependencies**
 ```bash
