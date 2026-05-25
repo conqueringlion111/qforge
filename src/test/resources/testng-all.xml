@@ -8,4 +8,10 @@
         </classes>
     </test>
 
+    <test name="Module 2 - LLM Response Validator">
+        <classes>
+            <class name="com.synlee.qforge.validator.LlmValidatorTest"/>
+        </classes>
+    </test>
+
 </suite>
