@@ -14,4 +14,10 @@
         </classes>
     </test>
 
+    <test name="Module 3 - Chatbot Test Suite">
+        <classes>
+            <class name="com.synlee.qforge.chatbot.ChatbotTest"/>
+        </classes>
+    </test>
+
 </suite>
