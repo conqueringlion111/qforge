@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="QForge Test Suite" verbose="1">
+
+    <test name="Module 1 - AI Test Generator">
+        <classes>
+            <class name="com.synlee.qforge.generator.TestGeneratorTest"/>
+        </classes>
+    </test>
+
+    <test name="Module 2 - LLM Response Validator">
+        <classes>
+            <class name="com.synlee.qforge.validator.LlmValidatorTest"/>
+        </classes>
+    </test>
+
+</suite>
