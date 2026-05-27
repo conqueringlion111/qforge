@@ -133,6 +133,17 @@
                     </compilerArgs>
                 </configuration>
             </plugin>
+
+            <!-- Maven Exec Plugin — runs QForgeAgent as a Java main class -->
+            <plugin>
+                <groupId>org.codehaus.mojo</groupId>
+                <artifactId>exec-maven-plugin</artifactId>
+                <version>3.1.0</version>
+                <configuration>
+                    <mainClass>com.synlee.qforge.agent.QForgeAgent</mainClass>
+                </configuration>
+            </plugin>
+
         </plugins>
     </build>
 
